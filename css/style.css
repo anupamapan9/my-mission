@@ -4,6 +4,7 @@ body{
 }
 p{
     font-size: 18px;
+    text-align: justify;
 }
 h1{
     font-size: 60px;
@@ -16,19 +17,27 @@ h2{
     line-height: 30px;
     color: #1e1a33;
 }
+h3{
+    font-size: 36px;
+    line-height: 20px;
+    color:#333333 ;
+}
 h4{
     font-size: 24px;
 
 }
+h5{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
 span{
     color: #F59760;
-
 }
 .hero-bannar{
     display: flex;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 #hero-bordar{
     border-left: 5px solid #5C4FC7;
@@ -57,7 +66,7 @@ span{
     display: flex;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .my-timeline-childs{
@@ -72,7 +81,6 @@ span{
 .my-timeline-childs p{
     color: #424242;
     font-size: 16;
-    text-align: justify;  
 }
 #vission{
     background-color: #4f9da626;
@@ -85,4 +93,71 @@ span{
 #goal{
     background-color: #f7ac6149;
     border-radius: 20px;
+}
+.portfolio{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-size: 15%;
+    background-image: url(/image/shape-1.png);
+    background-position:bottom left;
+    background-repeat: no-repeat;
+}
+.portfolio-child{
+    width: 50%;
+    padding: 5%;
+}
+.portfolio-child img{
+    width: 80%;
+}
+
+.group{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-size: 15%;
+    background-image: url(/image/shape-1.png);
+    background-position:bottom right;
+    background-repeat: no-repeat;
+}
+.group-child{
+    width: 50%;
+    padding: 5%;
+}
+.group-child img{
+    width: 80%;
+}
+.project-heading{
+    text-align: center;
+    color: black;
+}
+.projects-parents{
+    display: flex;
+    width: 60%;
+    margin: 50px auto;
+    padding: 2% 4%;
+    box-shadow: 10px 10px 30px #1e1a33;
+}
+.projects-child{
+    width: 33%;
+    text-align: center;
+}
+.projects-child p{
+    text-align: center;
+}
+footer{
+    padding: 30px 0px;
+    background-color: #1e1a33;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+footer h3{
+    color: white;
 }
