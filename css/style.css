@@ -100,7 +100,7 @@ span{
     margin: 0 auto;
     margin-bottom: 50px;
     background-size: 15%;
-    background-image: url(/image/shape-1.png);
+    background-image: url(../image/shape-1.png);
     background-position:bottom left;
     background-repeat: no-repeat;
 }
@@ -118,7 +118,7 @@ span{
     margin: 0 auto;
     margin-bottom: 50px;
     background-size: 15%;
-    background-image: url(/image/shape-1.png);
+    background-image: url(../image/shape-1.png);
     background-position:bottom right;
     background-repeat: no-repeat;
 }
