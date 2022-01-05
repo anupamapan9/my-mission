@@ -1,0 +1,88 @@
+body{
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 18px;
+}
+h1{
+    font-size: 60px;
+    line-height: 30px;
+    color: rgb(42, 42, 42);
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 48px;
+    line-height: 30px;
+    color: #1e1a33;
+}
+h4{
+    font-size: 24px;
+
+}
+span{
+    color: #F59760;
+
+}
+.hero-bannar{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+#hero-bordar{
+    border-left: 5px solid #5C4FC7;
+    padding-left: 2%;
+}
+
+.hero-child{
+    width: 50%;
+}
+.hero-child img{
+    padding-left: 10%;
+    width: 70%;
+}
+.global-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, #5C4FC7,#614cfb);
+    font-size: 18;
+    font-weight: 400;
+    color: white;
+}
+.my-timeline h2{
+    text-align: center;
+}
+.my-timeline-parent{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.my-timeline-childs{
+    width: 30%;
+    margin: 1%;
+    padding: 2%;
+
+}
+.my-timeline-childs img{
+    width: 60%;
+}
+.my-timeline-childs p{
+    color: #424242;
+    font-size: 16;
+    text-align: justify;  
+}
+#vission{
+    background-color: #4f9da626;
+    border-radius: 20px;
+}
+#mission{
+    background-color: #9582ff21;
+    border-radius: 20px;
+}
+#goal{
+    background-color: #f7ac6149;
+    border-radius: 20px;
+}
