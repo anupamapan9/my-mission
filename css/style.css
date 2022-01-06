@@ -33,6 +33,7 @@ h5{
 span{
     color: #F59760;
 }
+
 .hero-bannar{
     display: flex;
     width: 90%;
@@ -162,7 +163,7 @@ footer p{
     text-align: center;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
 }
 footer h3{
     color: white;
